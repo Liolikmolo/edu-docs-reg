@@ -45,7 +45,7 @@ const UsersPage = () => {
                         <td>active</td>
                         <td>
                             <div className={s.buttons}>
-                                <Link href={"/"}>
+                                <Link href={"/dashboard/users/test"}>
                                     <button className={`${s.btn} ${s.view}`}>View</button>
                                 </Link>
                                 <button className={`${s.btn} ${s.delete}`}>Delete</button>
